@@ -1,0 +1,24 @@
+# Manuscripts and uploads
+*.pdf
+*.PDF
+
+# Run outputs and sensitive reports
+results/
+expected.json
+*.log
+*.tmp
+
+# Local configuration and secrets
+.env
+.env.*
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.ruff_cache/
+
+# macOS
+.DS_Store
